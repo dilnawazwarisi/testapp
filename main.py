@@ -15,6 +15,10 @@ def health():
 def hello(name):
     return get_message(name)
 
+@app.route('/hello2')
+def hello2():
+    return 'Hello2'
+
 # @app.route('/visits/data'):
 # def get_visits():
 
