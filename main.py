@@ -19,6 +19,10 @@ def hello(name):
 def hello2():
     return 'Hello2'
 
+
+@app.route('/hello3')
+def hello2():
+    return 'Hello3'
 # @app.route('/visits/data'):
 # def get_visits():
 
